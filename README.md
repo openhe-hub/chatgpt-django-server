@@ -1,4 +1,7 @@
 # ChatGPT Django Server
+![](https://img.shields.io/badge/lang-Python3-lightgreen.svg?style=flat)
+![](https://img.shields.io/badge/framework-Django-cyan.svg?style=flat)
+![](https://img.shields.io/badge/feature-ChatGPT-red.svg?style=flat)
 ## Introduction
 This project is a python web server built by Django, 
 enabling you to construct your own ChatGPT API/service on your server. 
@@ -30,7 +33,9 @@ modify `./src/chat_server/assets/config.json`
 }
 ```
 ### API Example
-post: `http://www.openhe-station.com/api/chat`
+Try posting: `http://www.openhe-station.com/api/chat`  
+Below is a little demo: 
+![img.png](src/chat_server/assets/img.png)
 ## Data Format
 * Http request(post): `/api/chat`
     ```json
